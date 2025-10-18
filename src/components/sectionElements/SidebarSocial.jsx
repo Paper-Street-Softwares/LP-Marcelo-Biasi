@@ -98,7 +98,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
                       onClick={(e) => hide(e)}
                       rounded
                       outlined
-                      className={`${colorMode ? "text-black" : "text-black"}`}
+                      className={`${colorMode ? "text-white" : "text-white"}`}
                     >
                       <X size={32} />
                     </Button>
@@ -106,11 +106,11 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
                 </div>
 
                 <div className="h-screen overflow-y-auto">
-                  <hr className="m-5 mx-3 border-top-1 surface-border border-black" />
+                  <hr className="m-5 mx-3 border-top-1 surface-border border-white" />
                   <ul className="p-3 m-0 list-none">
                     <li>
                       <ul
-                        className={`p-0 m-0 -mt-[16px] overflow-hidden font-medium text-black list-none text-paragraph3 font-secondFont`}
+                        className={`p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white list-none text-paragraph3 font-secondFont`}
                       >
                         {visibleSections.map(({ id, label }, index) => (
                           <li key={id}>
