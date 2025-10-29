@@ -173,6 +173,11 @@
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
   },
+  "homenagem": {
+    "miniTag": "Homenagem",
+    "title": "Uma inspiração que vive em cada conquista",
+    "subtitle": "Em memória de quem nos ensinou a lutar pelo que é justo."
+  },
   "footer": {
     "copyrightLine": "{{year}} - {{name}} - Todos os direitos reservados",
     "footerDivulgacaoText": "Gostaria de ter um site como este? Clique aqui",
