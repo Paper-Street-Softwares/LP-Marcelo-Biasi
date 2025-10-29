@@ -53,7 +53,7 @@ export default function Memoria({ colorMode }) {
                     backgroundSize: "",
                   }}
                 ></div> */}
-            <div className="w-full">
+            <div className="w-full ">
               <ImageGallery
                 items={images}
                 showNav={false} // Ativando a navegação
@@ -85,7 +85,7 @@ export default function Memoria({ colorMode }) {
 
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <SectionHeader
-            className="hidden text-center desktop1:flex"
+            className=" text-center flex"
             miniTitle={t("homenagem.miniTag")}
             sectionHeaderTitle={t("homenagem.title")}
             sectionHeaderSubtitle={t("homenagem.subtitle")}
