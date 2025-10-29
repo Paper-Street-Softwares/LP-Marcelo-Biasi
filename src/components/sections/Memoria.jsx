@@ -44,7 +44,7 @@ export default function Memoria({ colorMode }) {
   return (
     <SectionArea className={`${bgClass}`} paddingbot={true}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
-        <div className="flex justify-center w-[90%] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
+        <div className="flex justify-center w-[90%] desktop1:w-[42%] desktop2:w-[42.8%]">
           <MotionDivDownToUp className="relative flex justify-center w-full ">
             {/* <div
                   className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-black/30"
