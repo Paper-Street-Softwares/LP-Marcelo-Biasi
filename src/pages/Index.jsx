@@ -18,6 +18,7 @@ import UnderConstruction from "../components/interactives/UnderConstruction";
 import { useColorMode } from "../assets/context/ColorModeContext";
 import News from "../components/sections/News";
 import Testimonial from "../components/sections/lp01/Testimonials";
+import Memoria from "../components/sections/Memoria";
 
 export default function Index() {
   const showUnderConstruction = false;
@@ -84,6 +85,7 @@ export default function Index() {
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
+      <Memoria />
       {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial colorMode={colorMode} addres={false} obs={false} />
       <FloatingWhatsappButton />
